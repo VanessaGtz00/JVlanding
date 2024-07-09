@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    color: #333;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.bg-white, .bg-light {
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.content-box {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+form .form-group label {
+    display: none;
+}
+
+form .form-group input {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+form .btn {
+    background-color: #8b572a;
+    color: #fff;
+}
+
+form .btn:hover {
+    background-color: #734421;
+}
